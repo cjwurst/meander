@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a977a203871ffe439824443d238ee40, type: 3}
+  m_Name: River Config
+  m_EditorClassIdentifier: 
+  split: 0
+  minSampleInterval: 0.6
+  maxSampleInterval: 1.3
+  cutThreshold: 0.5
+  tangentCoeff: 5
+  binormalCoeff: 0
+  normalCoeff: 0.1
+  totalCoeff: 0.001
+  momentumBase: 0.5
+  momentumDepth: 10
+  debug: 0
+  debugDraw: 0
